@@ -1,6 +1,6 @@
 map_plot
 ========
-This is a map plot, that contains 6 points/locations I selected 
+This is a map plot that contains 6 points/locations I selected 
 
 *stored them in a Mysql database with the fields id, latitude,longitude,title and content(the popups html) 
 
