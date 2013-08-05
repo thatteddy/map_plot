@@ -8,8 +8,9 @@ $dbName= 'your_database';
 return new mysqli($hostName,$userName,$passCode, $dbName);
 }
 /**********************************************************************************************/
-if($_POST){
-	$_POST['servicename']();
+if($_POST){ 
+   $servicename=strip_tags($_POST['servicename']);
+   $servicename();
 }
 /**********************************************************************************************/
 function fetchPointsCoordinates(){
